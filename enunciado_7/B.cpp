@@ -11,6 +11,7 @@ class B{
         void setB2(float valor);
         void MB1();
         void MB2();
+        void MB3();
 };
 
 int B::getB1() const {
@@ -35,4 +36,8 @@ void B::MB1(){
 
 void B::MB2(){
     std::cout << "MB2";
+}
+
+void B::MB3(){
+    std::cout << "MB3";
 }
